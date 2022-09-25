@@ -39,3 +39,16 @@
 .gradient {
   background: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
 }
+
+.bottom-border-hover:hover {
+  border-image-slice: 7;
+  border-image-width: 0 0 3px 0;
+  border-image-source: linear-gradient(
+    to left,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
