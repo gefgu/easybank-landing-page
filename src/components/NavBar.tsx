@@ -1,5 +1,19 @@
-import React from "react";
+import type React from "react";
 
-export default function NavBar() {
-  return <header>Hellow World</header>;
-}
+const NavBar: React.FunctionComponent = () => {
+  return (
+    <header>
+      <img src="/logo.svg" alt="logo"/>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Carrers</a>
+      </nav>
+      <button>Request Invite</button>
+    </header>
+  );
+};
+
+export default NavBar;
