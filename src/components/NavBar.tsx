@@ -2,9 +2,9 @@ import type React from "react";
 
 const NavBar: React.FunctionComponent = () => {
   return (
-    <header>
+    <header className="max-w-6xl mx-auto flex justify-between items-center h-20 px-8">
       <img src="/logo.svg" alt="logo"/>
-      <nav>
+      <nav className="flex gap-x-6">
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
