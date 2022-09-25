@@ -7,3 +7,31 @@
 * {
   font-family: "Public Sans";
 }
+
+.light-grey {
+  color: hsl(0, 0%, 98%);
+}
+
+.grayish-blue {
+  color: hsl(233, 8%, 62%);
+}
+
+.light-grayish-blue {
+  color: hsl(220, 16%, 96%);
+}
+
+.very-light-gray {
+  color: hsl(0, 0%, 98%);
+}
+
+.brigth-cyan {
+  color: hsl(192, 70%, 51%);
+}
+
+.dark-blue {
+  color: hsl(233, 26%, 24%);
+}
+
+.lime-green {
+  color: hsl(136, 65%, 51%);
+}
