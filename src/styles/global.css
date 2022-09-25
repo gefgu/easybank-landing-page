@@ -20,10 +20,6 @@
   color: hsl(220, 16%, 96%);
 }
 
-.very-light-gray {
-  color: hsl(0, 0%, 98%);
-}
-
 .brigth-cyan {
   color: hsl(192, 70%, 51%);
 }
@@ -38,6 +34,10 @@
 
 .gradient {
   background: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.gradient:hover {
+  filter: contrast(125%);
 }
 
 .bottom-border-hover:hover {
