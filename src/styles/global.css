@@ -20,6 +20,10 @@
   color: hsl(233, 8%, 62%);
 }
 
+.bg-light-grayish-blue {
+  background-color: hsl(220, 16%, 96%);
+}
+
 .light-grayish-blue {
   color: hsl(220, 16%, 96%);
 }
