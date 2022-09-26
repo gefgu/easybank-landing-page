@@ -3,7 +3,7 @@ import InviteButton from "./InviteButton";
 
 const NavBar: React.FunctionComponent = () => {
   return (
-    <header className="max-w-7xl mx-auto flex justify-between items-center h-24 px-12 pt-4">
+    <header className="max-w-7xl mx-auto flex justify-between z-10 items-center h-24 px-12">
       <a href="#">
         <img src="/logo.svg" alt="logo" />
       </a>
@@ -21,7 +21,7 @@ const NavBar: React.FunctionComponent = () => {
           Blog
         </a>
         <a href="#" className="h-full flex items-center bottom-border-hover">
-          Carrers
+          Careers
         </a>
       </nav>
       <InviteButton />
