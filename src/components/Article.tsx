@@ -1,4 +1,5 @@
 import type React from "react";
+import { motion } from "framer-motion";
 
 interface ArticleProps {
   author: string;
@@ -14,16 +15,28 @@ const Article: React.FunctionComponent<ArticleProps> = ({
   summary,
 }: ArticleProps) => {
   return (
-    <section className="flex flex-col gap-4 bg-white rounded-lg shadow-sm">
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      className="flex flex-col gap-4 bg-white rounded-lg shadow-sm"
+    >
       <figure>
-        <img src={image} alt="placeholder" className="h-56 w-full object-cover rounded-t-lg"/>
-        <figcaption className="p-4 pb-0 text-sm grayish-blue">By {author}</figcaption>
+        <img
+          src={image}
+          alt="placeholder"
+          className="h-56 w-full object-cover rounded-t-lg"
+        />
+        <figcaption className="p-4 pb-0 text-sm grayish-blue">
+          By {author}
+        </figcaption>
       </figure>
       <div className="p-4 pt-0">
         <h3 className="text-lg dark-blue font-light mb-2">{title}</h3>
-        <p className="text-sm grayish-blue leading-relaxed mb-2">{summary}...</p>
+        <p className="text-sm grayish-blue leading-relaxed mb-2">
+          {summary}...
+        </p>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
