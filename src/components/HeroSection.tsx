@@ -4,7 +4,7 @@ import InviteButton from "./InviteButton";
 const HeroSection: React.FunctionComponent = () => {
   return (
     <main className="bg-light-grey grid grid-cols-2">
-      <section className="flex flex-col gap-8 items-start justify-center px-12 py-32">
+      <section className="flex flex-col gap-8 items-start justify-center px-12 py-32 2xl:pl-72">
         <h1 className="text-5xl">Next generation digital banking</h1>
         <p>
           Take your financial life online. Your Easybank account will be
