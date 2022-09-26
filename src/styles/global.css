@@ -36,6 +36,10 @@
   color: hsl(233, 26%, 24%);
 }
 
+.bg-dark-blue {
+  background-color: hsl(233, 26%, 24%);
+}
+
 .lime-green {
   color: hsl(136, 65%, 51%);
 }
