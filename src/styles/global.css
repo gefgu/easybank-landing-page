@@ -58,10 +58,17 @@
 }
 
 .hero {
+  min-height: 700px;
+  overflow: scroll;
 }
 
 .bg-intro {
+  position: relative;
+  top: -20px;
+  right: calc(-25%);
+  transform: scale(1.5);
 }
 
 .mockups {
+  /* position: absolute; */
 }
