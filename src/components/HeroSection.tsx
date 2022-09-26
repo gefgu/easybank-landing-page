@@ -6,7 +6,7 @@ const HeroSection: React.FunctionComponent = () => {
     <main className="bg-light-grey grid grid-cols-2">
       <section className="flex flex-col gap-12 items-start justify-center px-12 py-28 2xl:pl-72">
         <h1 className="text-5xl dark-blue font-light">Next generation digital banking</h1>
-        <p className="grayish-blue">
+        <p className="grayish-blue leading-relaxed">
           Take your financial life online. Your Easybank account will be
           one-stop-shop for spending, saving, budgeting, investing, and much
           more.

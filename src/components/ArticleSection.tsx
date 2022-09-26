@@ -6,7 +6,7 @@ const ArticleSection: React.FunctionComponent = () => {
     <article className="bg-light-grey">
       <div className="max-w-7xl mx-auto p-12 flex flex-col gap-8">
         <h2 className="text-4xl dark-blue">Latest Articles</h2>
-        <div className="grid grid-cols-4 gap-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:grid-cols-4 gap-12">
           <Article
             title="Receive money in any currency with no fees"
             summary="The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single"
