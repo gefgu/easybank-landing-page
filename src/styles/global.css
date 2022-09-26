@@ -60,7 +60,7 @@
 .bg-intro {
   position: relative;
   top: -20px;
-  right: calc(-25%);
+  right: calc(-20%);
   transform: scale(1.5);
 }
 
@@ -69,5 +69,5 @@
   top: 0;
   right: 0;
   width: 100%;
-  max-width: 750px;
+  max-width: 700px;
 }
