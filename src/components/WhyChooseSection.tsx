@@ -10,30 +10,34 @@ const WhyChooseSection: React.FunctionComponent = () => {
           hub.
         </p>
         <div className="grid grid-cols-4 gap-12">
-          <section>
+          <section className="flex flex-col gap-6 items-start">
+            <img src="/icon-online.svg" alt="hand holding cards"/>
             <h3 className="text-xl dark-blue font-light">Online Banking</h3>
-            <p className="text-sm mt-6 grayish-blue">
+            <p className="text-sm grayish-blue">
               Our modern web and mobile applications allow you to keep track of
               your finances wherever you are in the world.
             </p>
           </section>
-          <section>
+          <section className="flex flex-col gap-6 items-start">
+            <img src="/icon-budgeting.svg" alt="phone"/>
             <h3 className="text-xl dark-blue font-light">Simple Budgeting</h3>
-            <p className="text-sm mt-6 grayish-blue">
+            <p className="text-sm grayish-blue">
               See exactly where your money goes each month. Receive
               notifications when you're close to hitting your limits.
             </p>
           </section>
-          <section>
+          <section className="flex flex-col gap-6 items-start">
+            <img src="/icon-onboarding.svg" alt="onboarding"/>
             <h3 className="text-xl dark-blue font-light">Fast Onboarding</h3>
-            <p className="text-sm mt-6 grayish-blue">
+            <p className="text-sm grayish-blue">
               We don't do branches. Open your account in minutes online and
               start taking control of your finances right away.
             </p>
           </section>
-          <section>
+          <section className="flex flex-col gap-6 items-start">
+            <img src="/icon-api.svg" alt="api"/>
             <h3 className="text-xl dark-blue font-light">Open API</h3>
-            <p className="text-sm mt-6 grayish-blue">
+            <p className="text-sm grayish-blue">
               Manage your savings, investments, pension, and much more from one
               account. Tracking your money has never been easier.
             </p>
